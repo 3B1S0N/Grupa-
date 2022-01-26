@@ -308,6 +308,21 @@
     background-color: #f4516c;
     color: #fff;
 }
+
+/* aliceblue */
+
+
+.btn.smoke {
+    background-color: #F0F8FF;
+    color: #fff;
+}
+.btn.smoke:hover,
+.btn.smoke:active,
+.btn.smoke.active,
+.btn.smoke:focus {
+    background-color: #F0F8FF;
+    color: #1e1e1e;
+}
 /* Brown */
 
 .btn.brown {

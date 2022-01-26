@@ -3378,3 +3378,19 @@ body{
 }
 
 }
+
+
+.btn.button-sm.date{
+	color:#999;
+	background-color:#B0B0B0 ;
+}
+.fa.fa-arrow-up{
+	color: #1fd36b;
+}
+.fa.fa-arrow-down{
+	color:crimson;
+}
+
+.fa.fa-exchange{
+	color:#ff7800;
+}
