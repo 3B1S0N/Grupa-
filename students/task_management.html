@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    </head>
+
+    <body>
+      <div class="dash">
+        <nav
+            id="sidenav-1"
+            class="sidenav"
+          >
+            <div className="logotext">
+            <Row>
+                <Col><h3>GRUPA</h3></Col>
+            
+            </Row>
+            
+            
+          </div>
+            <ul class="sidenav-menu">
+              <li class="sidenav-item">
+                <a href="dashboard.html" class="sidenav-link" >
+                <button outline><i class="bi bi-arrow-clockwise"></i><span>Dashboard</span></button></a>
+              </li>
+              <li class="sidenav-item ">
+                <a href="courses.html" class="sidenav-link active"
+                  ><button outline><i class="bi bi-arrow-clockwise"></i><span>Courses</span></button></a>
+                  <ul>
+                    <li class="sidenav-item"><a href="review.html" class="sidenav-link"
+                      ><button outline><i class="bi bi-arrow-clockwise"></i><span>Review</span></button></a></li>
+                  </ul>
+              </li>
+            </ul>
+
+            <div class='logout'>
+              <i class="bi bi-arrow-clockwise"></i>Log Out
+            </div>
+          </nav>
+
+          
+
+          <div class="link">
+              <a href="courses.html">Courses></a>
+              <a href="group.html">Group></a>
+              <a href="project.html">Project></a>
+              <a href="task_management.html">Task Management</a>
+
+              
+              <div class="container g">
+                <div class="btn-group">
+                    <a href="#" class="btn btn-primary active" aria-current="page">General</a>
+                    <a href="../students/task_personal.html" class="btn btn-outline-primary">Personal</a>
+                  </div>
+              </div>
+              
+    
+              <div class="container r">
+                <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title">E-Commerce Project 1</h5>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Task</th>
+                            <th scope="col">Due Date</th>
+                            <th scope="col">Assigned To</th>
+                            <th scope="col">Priority</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">Mark Okraku Mantey</td>
+                            <td class="date"><a href="#" class="btn button-sm">17 Feb 2021</a></td>
+                            <td>Mark Okraku Mantey</td>
+                            <td><i class="bi bi-arrow-down-up high"></i>High</td>
+                            <td class="stat"><a href="#" class="btn button-sm green">DONE</a></td>
+                            <td><a><i class="bi bi-eye-fill"></i></a> <a><i class="bi bi-box-arrow-up-right"></i></a> <a><i class="bi bi-trash"></i></a></td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Mark Okraku Mantey</td>
+                            <td class="date"><a href="#" class="btn button-sm">17 Feb 2021</a></td>
+                            <td>Mark Okraku Mantey</td>
+                            <td><i class="bi bi-arrow-down-up low"></i>Low</td>
+                            <td class="stats"><a href="#" class="btn button-sm gray">TO DO</a></td>
+                            <td><a><i class="bi bi-eye-fill"></i></a> <a><i class="bi bi-box-arrow-up-right"></i></a> <a><i class="bi bi-trash"></i></a></td>
+    
+                          </tr>
+                          <tr>
+                            <td scope="row">Mark Okraku Mantey</td>
+                            <td class="date"><a href="#" class="btn button-sm">17 Feb 2021</a></td>
+                            <td>Mark Okraku Mantey</td>
+                            <td><i class="bi bi-arrow-left-right medium"></i>Medium</td>
+                            <td class="statc"><a href="#" class="btn button-sm orange">IN PROGRESS</a></td>
+                            <td><a><i class="bi bi-eye-fill"></i></a> <a><i class="bi bi-box-arrow-up-right"></i></a> <a><i class="bi bi-trash"></i></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+    
+                    </div>
+                  </div>
+              </div>
+    
+
+
+              
+
+          </div>
+
+
+          
+
+
+          
+          <div class="profilen">
+              <img alt="" width="27" height="25" class="profile d-inline-block align-text-top">
+              <h6>Kwabena Koranteng</h6>
+          </div>
+
+          <div>
+              
+          </div>
+
+      </div>
+    
+
+
+
+      </div>
+    
+
+          
+
+
+
+        <script type="text/javascript">
+            $(function() {
+                $(".card-img-top").each(function() {
+                    var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+                    $(this).css("background-color", hue);
+                });
+            });
+        </script>
+    </body>
+</html>

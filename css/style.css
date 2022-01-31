@@ -1,0 +1,338 @@
+body{
+    background-color: white;
+    color:#003d99;
+    
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    background-color: #0059b3;
+    color:white;
+}
+
+.navbar-light .navbar-brand{
+    color:white;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-light .navbar-text{
+    color:white;
+}
+
+
+.container-fluid img{
+    border-radius: 45%;
+    border:none;
+    background-color: white;
+}
+
+
+.container{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: -5%;
+}
+
+.link .container.t{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.container.p{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: -5%;
+}
+
+.container.g{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: -5%;
+}
+
+.container.r{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: -5%;
+}
+
+.container .row .col .card .card-img-top{
+    border:none;
+}
+
+.container .row .col .card .card-body a{
+    background-color: #0059b3;
+    border: none;
+}
+
+.container .row .col .card .card-body .card-title{
+    color:#0059b3;
+}
+
+/* .container .row .col .card .card-body table{
+    width: 90%;
+} */
+
+.container.t .card{
+    width: 60rem;
+}
+
+
+.container .row .col .card .card-body .status{
+    float:right;
+    color:rgb(204, 134, 3);
+}
+.container .row .col .card .card-body .statusc{
+    float:right;
+    color:green;
+}
+
+.container .row .col .card .card-body .title{
+    float:left;
+}
+
+.container .card .table .date a{
+    color: #1e1e1e;
+    background-color: #c0d4e5;
+}
+
+.container .card .table .bi.medium{
+    color: orange;
+}
+.container .card .table .bi.high{
+    color: green;
+}
+.container .card .table .bi.low{
+    color: crimson;
+}
+
+.container .card .table .stat a{
+    background-color: green;
+    color: white;
+}
+.container .card .table .statc a  {
+    background-color: rgb(204, 134, 3);
+    color: white;
+}
+.container .card .table .stats a  {
+    background-color: #a7b4be;
+    color: white;
+}
+
+
+.example-parent {
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .example-origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #8aa6c2;
+    border-radius: 5px;
+  }
+  
+  .example-draggable {
+    background-color: #8aa6c2;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .example-dropzone {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+    /* border: 2px solid #0059b3; */
+    margin-left: 2%;
+    border-radius: 5px;
+    background-color: rgb(178, 199, 178);
+  }
+
+  .example-dropzone.p{
+    background-color: #e7d4ca;
+  }
+.dash .sidenav{
+    background-color: #5d7894;
+    height: 49.3rem;
+    width: 20rem;
+}
+
+.dash .sidenav h3{
+    color:white;
+}
+.dash .sidenav ul{
+    list-style: none;
+    margin-top: 2%;
+}
+
+.dash .sidenav .sidenav-item .sidenav-link button{
+    background: none;
+    border:none;
+    color:white;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+
+.dash .sidenav .sidenav-item.active .sidenav-link button{
+    background: white;
+    border:none;
+    color:#003d99;
+    width: 11rem;
+}
+
+.dash .sidenav .sidenav-item .sidenav-link.active button{
+    background: white;
+    border:none;
+    color:#003d99;
+    width: 11rem;
+}
+.dash .sidenav .logout{
+    color:white;
+    text-align: center;
+    margin-top: 280%;
+}
+
+.profilen{
+margin-left: -10%;
+margin-top: 1%;
+width: 20rem;
+color:#5d7894;
+}
+.profilen img{
+    border-radius: 45%;
+    background-color: #5d7894;
+    float: left;
+}
+
+.link{
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 70rem;
+    
+
+}
+
+.link a{
+    color:#5d7894;
+    text-decoration: none;
+}
+
+
+.link .col .card{
+align-items: center;
+width:  18rem;
+margin-top: 3%;
+display: flex;
+flex-direction: row;
+padding: 2%;
+box-shadow:0 3px 10px 0px rgba(0,0,0,.08);
+}
+
+
+.link .col .card .card-title{
+    float: left;
+    width: 50rem;
+}
+
+
+.link .col .card .card-body{
+    margin-left: 30%;
+}
+
+.link .row{
+    width: 60rem;
+}
+
+
+.link .col .cards{
+    width:  18rem;
+    margin-top: 3%;
+    box-shadow:0 3px 10px 0px rgba(0,0,0,.08);
+}
+    
+    
+.link .col .cards .card-title {
+        font-size: 18pt;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-weight: bold;
+}
+
+.link .col .cards .card-title .gstat{
+    float: right;
+}
+.link .col .cards .card-title h6{
+    float: right;
+}
+
+.link .col .cards .card-title .bi.bi-circle-fill{
+    color: green;
+}
+    
+.link .col .cards .card-body{
+       padding:2%;
+       flex-direction: column;
+       display: flex;
+    }
+    .link .col .cards .card-body a{
+        color:white;
+        background-color: #5d7894;
+        border: none;
+
+    }
+.tasks .cards{
+    background-color: white;
+    width: 70rem;
+    flex-direction: column;
+    margin-top: 2%;
+    padding: 2%;
+    border:1px solid #5d7894;
+    border-radius: 5px;
+    box-shadow:0 3px 10px 0px rgba(0,0,0,.08);
+
+}
+
+.tasks .cards .table tr p{
+    color:#a7b4be;
+}
+.tasks .cards .table .status a{
+    background-color: rgb(202, 78, 103);
+    color:white;
+}
+
+.tasks .cards .table .statusc a{
+    background-color: rgb(51, 139, 51);
+    color:white;
+}
+
+
+.container.r .card{
+    width:60rem;
+}
+
+
+.container.g .btn-group .btn.active{
+    background-color: #5d7894;
+}
